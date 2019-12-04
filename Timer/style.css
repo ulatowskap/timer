@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+body {
+    background-image: url(time-3435879_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-top: -150px;
+}
+
+label {
+    margin: 10px 40px;
+}
+
+section {
+    width: 500px;
+    margin: 12% auto;
+}
+
+.btn {
+    position: absolute;
+    top: 68%;
+    right: 45.5%;
+    background: none;
+    border: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
